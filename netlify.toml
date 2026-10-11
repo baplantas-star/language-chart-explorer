@@ -1,0 +1,3 @@
+[build]
+  command = "rm -rf site && mkdir -p site && unzip -o \"wida-language-explorer (1).zip\" -d site"
+  publish = "site/wida-language-explorer"
